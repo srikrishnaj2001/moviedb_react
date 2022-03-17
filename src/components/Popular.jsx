@@ -5,13 +5,11 @@ import {
   Flex,
   Button,
   Badge,
-  useDisclosure,
 } from '@chakra-ui/react'
 import { useEffect, useState } from 'react'
 function Popular() {
   const [movies, setMovies] = useState([])
   const [currentPage, setCurrentPage] = useState(1)
-  const { isOpen, onOpen, onClose } = useDisclosure()
 
   async function getMoviesFromAPI() {
     const res = await fetch(
@@ -28,7 +26,7 @@ function Popular() {
   // <Link to='/'>Home</Link>
   // <Link to='/about'>About</Link>
   return (
-    <div onClick={onOpen}>
+    <div>
       <br></br>
       <Flex
         direction='column'

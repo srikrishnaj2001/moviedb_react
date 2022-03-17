@@ -7,8 +7,7 @@ import TVAiringToday from './components/TvAiringToday'
 import TvOnTv from './components/TvOnTv'
 import TvTopRated from './components/TvTopRated'
 import PeoplePopular from './components/PeoplePopular'
-import './App.css'
-import { BrowserRouter, Routes, Switch, Route, Link } from 'react-router-dom'
+import { BrowserRouter, Routes, Route, Link } from 'react-router-dom'
 import {
   Menu,
   MenuButton,

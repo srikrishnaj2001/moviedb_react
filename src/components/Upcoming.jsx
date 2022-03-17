@@ -5,8 +5,6 @@ import {
   Flex,
   Button,
   Badge,
-  Divider,
-  Kbd,
 } from '@chakra-ui/react'
 
 import { useEffect, useState } from 'react'

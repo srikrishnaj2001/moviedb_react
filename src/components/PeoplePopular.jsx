@@ -1,11 +1,4 @@
-import {
-  Heading,
-  Image,
-  SimpleGrid,
-  Flex,
-  Button,
-  Badge,
-} from '@chakra-ui/react'
+import { Heading, Image, SimpleGrid, Flex, Button } from '@chakra-ui/react'
 
 import { useEffect, useState } from 'react'
 
